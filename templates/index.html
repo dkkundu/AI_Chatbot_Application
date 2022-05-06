@@ -1,0 +1,10 @@
+{% extends 'base/base.html' %}
+
+{% block title_text %}Sample Page{% endblock %}
+
+{% block content %}
+    <div id="rasa-chat-widget" data-websocket-url="http://localhost:5005/"></div>
+    <script src="https://unpkg.com/@rasahq/rasa-chat" type="application/javascript"></script>
+    </script>
+
+{% endblock %}
